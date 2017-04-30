@@ -1,6 +1,6 @@
 """Checks if a number is an armstrong number."""
 
-"""if a number has n digits and
+"""If a number has n digits and
 the sum of the digits separately raised to nth power is equal to the number
 then it is called an Armstrong number.
 """
@@ -16,3 +16,6 @@ if sum == x:
     print "%s is an Armstrong number. " % (x)
 else:
     print "%s is NOT an Armstrong number. " % (x)
+
+"""Note: Some books/teachers say that the power to which the digits are raised is always three.
+    In such cases, use 3 instead of lth in line 13 and remove line 9."""
