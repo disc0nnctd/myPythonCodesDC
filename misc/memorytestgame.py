@@ -1,6 +1,6 @@
 #
 #DO NOT RUN IN PYTHON SHELL
-#
+#THIS PROGRAM IS STILL UNDER CONSTRUCTION
 import os
 def game():
     import time
