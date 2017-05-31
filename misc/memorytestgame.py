@@ -1,6 +1,6 @@
 #
 #DO NOT RUN IN PYTHON SHELL
-#THIS PROGRAM IS STILL UNDER CONSTRUCTION
+#This program is just for fun. I don't intend to develop much here.
 import os
 def game():
     import msvcrt
