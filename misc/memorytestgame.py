@@ -3,6 +3,7 @@
 #THIS PROGRAM IS STILL UNDER CONSTRUCTION
 import os
 def game():
+    import msvcrt
     import time
     from random import randint
     w=True
@@ -16,6 +17,8 @@ def game():
             print "Level",n
             print q," "*10,"Seconds remaining:",i
             time.sleep(1)
+            while msvcrt.kbhit():
+                msvcrt.getwch()
             i-=1
             os.system("cls")
         os.system("cls")
