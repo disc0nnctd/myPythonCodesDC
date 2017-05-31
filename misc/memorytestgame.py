@@ -22,10 +22,10 @@ def game():
         p=int(raw_input("What number was that?\n Your input: "))
         if p==q:
             print "Match!"
-            print "Proceeding to lvl 2"
             os.system("pause")
             os.system("cls")
             n+=1
+            print "Proceeding to lvl ", n
 ##        elif p=='':
 ##            print "What? You can't simply press enter!"
 ##            n=1
