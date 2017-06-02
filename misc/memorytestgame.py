@@ -22,18 +22,18 @@ def game():
             i-=1
             os.system("cls")
         os.system("cls")
-        p=int(raw_input("What number was that?\n Your input: "))
+        while True:
+            try:
+                p = int(raw_input("Please enter the number: "))
+                break
+            except ValueError:
+                print "Oops! That was not a number!"
         if p==q:
             print "Match!"
-            os.system("cls")
             n+=1
             print "Proceeding to lvl ", n
             os.system("pause")
             os.system("cls")
-##        elif p=='':
-##            print "What? You can't simply press enter!"
-##            n=1
-##            os.system("pause")
         else:
             print "You lost! Resetting, the number was",q
             print "Resetting"
