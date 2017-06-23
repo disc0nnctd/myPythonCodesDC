@@ -1,0 +1,11 @@
+Currently, the cars are just moving in a loop(One can notice the color pattern).
+
+I'd like to get the cars removed and new ones to be created
+as the older ones are removed.
+But currently this is too much and is acceptable for the SCHOOL PROJECT.
+
+So, we shall end it here but might add some minor changes, like splitting the code into different files/modules.
+
+1. Graphical animation with a start button?
+2. Timer? idk maybe not.
+3. Game Over/You Win! screen
