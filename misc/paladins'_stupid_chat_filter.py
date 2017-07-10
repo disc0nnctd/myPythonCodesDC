@@ -39,3 +39,7 @@ print Output
 ##    if c in Input:
 ##        Output=Output.replace(c,slangs[a])
 ##print Output
+
+
+
+#P.S. This is a mockery.
