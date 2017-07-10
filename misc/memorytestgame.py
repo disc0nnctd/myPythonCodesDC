@@ -8,18 +8,19 @@ def game():
     from random import randint
     w=True
     n=1
+    i=3 #time 3 seconds
     while w:
         s=10**(n-1)
         e=(10**n)-1
         q=randint(s,e)
-        i=5
-        while i>0:
+        a=i
+        while a>0:
             print "Level",n
-            print q," "*10,"Seconds remaining:",i
+            print "%s %s Time remaining: %s"%(q," "*10, a)
             time.sleep(1)
-            while msvcrt.kbhit():
-                msvcrt.getwch()
-            i-=1
+            while msvcrt.kbhit():  #This snippet resets the keyboard
+                msvcrt.getwch()    #after the time ticking to prevent cheating
+            a-=1
             os.system("cls")
         os.system("cls")
         while True:
@@ -31,6 +32,8 @@ def game():
         if p==q:
             print "Match!"
             n+=1
+            if n%5==0:
+                i+=1 #if the level is a multiple of 5, time will increase by 1 sec
             print "Proceeding to lvl ", n
             os.system("pause")
             os.system("cls")
