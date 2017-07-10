@@ -2,7 +2,7 @@
 This is an example of the Paladins game's stupid chat filter that
 filters out the slang terms even when they are used in other words
 which are not slangs.
-Example=input- "ClassGrassBrass" | output- "Cl***Gr***Br***"
+Example=input- "ClassGrass" | output- "Cl***Gr***"
 """
 import re
 Input=raw_input("Enter text: ")
