@@ -1,6 +1,8 @@
-"""This is an example of the Paladins game's stupid chat filter that
+"""
+This is an example of the Paladins game's stupid chat filter that
 filters out the slang terms even when they are not slangs.
-Example=input- "ClassGrassBrass" | output- "Cl***Gr***Br***" """
+Example=input- "ClassGrassBrass" | output- "Cl***Gr***Br***"
+"""
 import re
 Input=raw_input("Enter text: ")
 Output=Input
