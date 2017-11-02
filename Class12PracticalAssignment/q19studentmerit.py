@@ -8,7 +8,7 @@ with open("Result.txt","w") as w:
 q=open("Result.txt","r")
 
 stud=eval(q.read())  #converts the string "{}" into dictionary
-
+q.close()
 st={}
 for i in stud.keys():  #creates a reversed dictionary with percentage as keys
     if stud[i] in st:
