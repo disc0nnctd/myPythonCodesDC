@@ -19,7 +19,7 @@ def login():
             if t[i]==user:
                 password=raw_input("password: ")
                 if password==t[i+1]:
-                    print "authenticated"
+                    print "access allowed"
                     auth=True
                 else:
                     print "wrong password"
