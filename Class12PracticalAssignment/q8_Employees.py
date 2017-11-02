@@ -41,4 +41,5 @@ with file("EMP.TXT","w") as f:
     f.write(str(prnt))
 q=open("EMP.TXT","r")
 p=q.read()
+q.close()
 print p
