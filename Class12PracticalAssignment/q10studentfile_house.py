@@ -19,7 +19,7 @@ with file("Student.txt","w") as stu:
 q=open("Student.txt","r")
 p=raw_input("Enter house: ")
 r=q.readlines()
-
+q.close()
 print preprnt,
 for j in r:
     if p in j:
