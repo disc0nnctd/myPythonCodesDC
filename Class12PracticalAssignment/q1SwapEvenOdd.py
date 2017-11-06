@@ -9,12 +9,12 @@ However, if the number of elements in the list is odd, the last element will be 
 
 def swapeo(l, size):
     """"The function that swaps."""
-    if len(l)%2==0:
-        rnge=len(l)
+    if len(l)%2== 0:
+        rnge= len(l)
     else:
-        rnge=len(l)-1
-    for i in range(0,rnge,2):
-        l[i], l[i+1]=l[i+1], l[i]
+        rnge= len(l)-1
+    for i in range(0 ,rnge, 2): #skips 2 steps
+        l[i], l[i+1]=l[i+1], l[i] #swaps elements
 
 l = input("Enter List")
 size = len(l)
