@@ -20,7 +20,7 @@ class Student:
            "(76,80)":"Chemical","(71,76)":"Civil"}
         for i in d.keys():
             r=eval(i)
-            if perc in range(*r):
+            if perc in range(*r): #can also use (r[0],r[1]) instead of *r
                 self.stream=d[i]
     def display(self):
         self.calc()
