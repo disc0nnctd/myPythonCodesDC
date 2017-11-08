@@ -4,7 +4,7 @@ class Travel:
     def __init__(self):
         Travel.visits+=1
     def ticket(self):
-        ask=raw_input("Buy tickets?(Y/N)")?
+        ask=raw_input("Buy tickets?(Y/N)")
         if ask.upper()=='Y':
             amount+=50
     def display(self):
