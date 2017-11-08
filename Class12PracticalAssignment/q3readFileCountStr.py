@@ -1,5 +1,5 @@
-# A program to store few sentences in a file SENT.txt and then print the number
-# of 'to' and 'the' present in it
+""" A program to store few sentences in a file SENT.txt and then print the number
+ of 'to' and 'the' (case sensitive) present in it"""
 # take care that using 'a' or 'a+' will add to the file
 # while 'w' or 'w+' will replace it
 # using "with" ensures that the file will be closed without using .close()
