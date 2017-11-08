@@ -6,7 +6,7 @@ class Travel:
     def ticket(self):
         ask=raw_input("Buy tickets?(Y/N)")
         if ask.upper()=='Y':
-            amount+=50
+            Travel.amount+=50
     def display(self):
         print 'Visits: %s\nAmount Collected: %s'%(Travel.visits, Travel.amount)
 t=Travel()
