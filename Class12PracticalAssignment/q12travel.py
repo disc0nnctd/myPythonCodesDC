@@ -13,4 +13,4 @@ t=Travel()
 t.ticket()
 t1=Travel()
 t1.ticket()
-t1.display
+t1.display()
