@@ -4,6 +4,8 @@ def date(s):
        12:"December", "1":"1st","2":"2nd","3":"3rd"}
     l=s.split()
     dd=l[0]
+    if dd<'10':
+        dd=dd[1]
     if l[0][-1] in dic:
         if len(dd)==1:
            dd=dic[dd]
@@ -20,3 +22,4 @@ def date(s):
 date("29 10 2017") #example: should give "29th October 2017"
 
 s=raw_input("dd mm yyyy")
+date(s)
