@@ -9,12 +9,12 @@ while s:
     if a==1:
         p=input("You chose to add.\nEnter number: ")
         q.insert(0,p)
-    if a==2:
+    elif a==2:
         print "Dequeuing"
         q.pop()
-    if a==3:
+    elif a==3:
         print "Viewing the queue"
         print q
-    if a==4:
+    elif a==4:
         print "Quitting"
         s=False
