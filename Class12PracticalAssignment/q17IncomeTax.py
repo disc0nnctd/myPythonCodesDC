@@ -5,9 +5,9 @@ class Tax:
         self.tax=0
     def IncomeTax(self):
         x=self.income
-        if x <= 3500:
+        if x <= 35000:
             self.tax=0
-        elif x in range(3501,60001):
+        elif x in range(35001,60001):
             self.tax=0.2*x
         elif x in range(60001,120001):
             self.tax=0.3*x
