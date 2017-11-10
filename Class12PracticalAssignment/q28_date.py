@@ -14,7 +14,7 @@ class DATE:
         if (r%4==0 or r%400==0) and r%100<>0:
             leap=True
         if p>30 or q>12:
-            while not (p<31 and q<12):
+            while not (p<31 and q<=12):
                 if q%2==0 and q<>8 and q<>2:
                     while p>30:
                         p-=30
