@@ -19,7 +19,7 @@ class DATE:
                     while p>30:
                         p-=30
                         q+=1
-                elif q%2<>0 or q==8 and q<>2:
+                elif q%2<>0 or q==8:
                     while p>31:
                         p-=31
                         q+=1
