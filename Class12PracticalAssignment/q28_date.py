@@ -11,6 +11,8 @@ class DATE:
         r=int(d[2])
         p+=10
         leap=False
+        if (r%4==0 or r%400==0) and r%100<>0:
+            leap=True
         if p>30 or q>12:
             while not (p<31 and q<12):
                 if q%2==0 and q<>8 and q<>2:
@@ -21,17 +23,21 @@ class DATE:
                     while p>31:
                         p-=31
                         q+=1
-                elif q==2 and not leap:
+                elif q==2:
                     if not leap:
                         p-=28
                     else:
                         p-=29
+                    q+=1
                 if q>12:
                     while q>12:
                         q-=12
                         r+=1
                 if (r%4==0 or r%400==0) and r%100<>0:
                     leap=True
+                else:
+                    leap=False
+                
         self.date=str(p)+" "+str(q)+" "+str(r)
     def DISP_DATE(self):
         print self.date
