@@ -11,16 +11,13 @@ def pal(x):
     else:
         return False
 def list_pallindrome():
-    try:    
-        a=open("Words.txt","r")
-        b=a.readlines()
-        l=[]
-        for i in b:
-            l.append(i[:-1])
-        for j in l:
-            if pal(j):
-                print j
-    except EOFError:
-        pass
+    a=open("Words.txt","r")
+    b=a.readlines()
+    l=[]
+    for i in b:
+        l.append(i[:-1])
+    for j in l:
+        if pal(j):
+            print j
 writer()
 list_pallindrome()
