@@ -1,0 +1,490 @@
+Enter List[1,2,3,4,5]
+[2, 1, 4, 3, 5]
+Enter List[1,2,3,4]
+[2, 1, 4, 3]
+
+#
+
+hours29
+minutes20
+error message: Incorrect input
+
+Traceback (most recent call last):
+  File "F:\myPythonCodesDC-master\Class12PracticalAssignment\q2classTime.py", line 25, in <module>
+    time.errchk()
+  File "F:\myPythonCodesDC-master\Class12PracticalAssignment\q2classTime.py", line 18, in errchk
+    raise Exception(self.errmsg)
+Exception: Incorrect input
+
+#
+
+Do you want to add more lines? Y/N: Y
+Enter a line: Welcome my friend to the palace of the warriors.
+Do you want to add more lines? Y/N: n
+Number of 'to' in file is 1
+Number of 'the' in file is 2
+
+#
+
+Name: John Doe
+House: Foobar
+English: 95
+Physics: 96
+Chemistry: 97
+Maths: 98
+CS: 99
+>>> stu.name
+'John Doe'
+>>> stu.cs
+99
+
+#
+
+Number  1
+enter number 8
+Number  2
+enter number 6
+Number  3
+enter number 12
+Number  4
+enter number 33
+Number  5
+enter number 92
+Number  6
+enter number 84
+Number  7
+enter number 56
+Number  8
+enter number 34
+Number  9
+enter number 59
+Number  10
+enter number 74
+[6, 8, 12, 33, 34, 56, 59, 74, 84, 92]
+
+#
+
+Enter name: John
+Enter phone number: 1234567890
+Enter name: Doe
+Enter phone number: 1232132131
+Enter name: Appleseed
+Enter phone number: 1842832213
+Enter name: Jack
+Enter phone number: 9812310923
+Enter name: Hunter
+Enter phone number: 3988123213
+{'John': '1234567890', 'Hunter': '3988123213', 'Jack': '9812310923', 'Appleseed': '1842832213', 'Doe': '1232132131'}
+Enter student name: Jack
+Jack's phone number is 9812310923
+
+#
+
+Roll no.: 1027
+Name: John
+Sub1: 95
+Sub2: 96
+Sub3: 97
+Sub4: 98
+Sub5: 99
+Roll no.: 1027
+Name: John
+Sub1: 95
+Sub2: 96
+Sub3: 97
+Sub4: 98
+Sub5: 99
+
+#
+
+Name: John
+Basic Salary: 1923244
+Name: Doe
+Basic Salary: 1573842
+Name: Appleseed
+Basic Salary: 1582963
+Name: Steve
+Basic Salary: 3053939
+Name: Alex
+Basic Salary: 2203924
+                                    SALARY REGISTER
+------------------------------------------------------------------------------------------
+S.No. Name          Basic       DA          HRA         Total       PF          Net-pay
+------------------------------------------------------------------------------------------
+1     John          1923244.0   576973.2    192324.4    769297.6    250021.72   519275.88
+2     Doe           1573842.0   472152.6    157384.2    629536.8    204599.46   424937.34
+3     Appleseed     1582963.0   474888.9    158296.3    633185.2    205785.19   427400.01
+4     Steve         3053939.0   916181.7    305393.9    1221575.6   397012.07   824563.53
+5     Alex          2203924.0   661177.2    220392.4    881569.6    286510.12   595059.48
+
+#
+
+Enter name: John Appleseed
+Enter Roll No.: 283
+Enter marks in English: 95
+Enter marks in P: 96
+Enter marks in C: 97
+Enter marks in M: 98
+Enter marks in CS: 99
+Name:John Appleseed
+RNo.:283
+Percentage:97.0
+Stream:Computer Science
+
+#
+
+Name: John
+House: Chenab
+Amount Collected: 1922
+Name: Steve
+House: Ganges
+Amount Collected: 1599
+Name: Jack
+House: Jhelum
+Amount Collected: 1292
+Name: Luke
+House: Chenab
+Amount Collected: 1921
+Name: Ben
+House: Ganges
+Amount Collected: 1111
+Enter house: Chenab
+--------------------------------------------------------------------------------
+Name of the student House   Amount collected
+--------------------------------------------------------------------------------
+John                Chenab  1922
+Luke                Chenab  1921
+
+--------------------------------------------------------------------------------
+
+#
+
+Enter username: DC
+password: apple
+Enter username: User
+password: password
+Enter username: Doge
+password: suchwow
+Enter username: Walter
+password: 12345
+Enter username: James
+password: AAAAA
+ENTER LOGIN DETAILS
+username: DC
+password: apple
+access allowed
+>>> login()
+username: Walter
+password: qwertyuiop
+access denied
+
+#
+
+Buy tickets?(Y/N): Y
+Buy tickets?(Y/N): N
+Visits: 2
+Amount Collected: 50
+
+#
+
+Input: Death
+Input: Rebellion
+Input: Star
+Input: Lightsaber
+Input: Stormtrooper
+['Death', 'Rebellion', 'Star', 'Force', 'Lightsaber', 'Stormtrooper']
+['Death', 'Force', 'Star', 'Rebellion', 'Lightsaber', 'Stormtrooper']
+['Death', 'Force', 'Lightsaber', 'Rebellion', 'Star', 'Stormtrooper']
+['Death', 'Force', 'Lightsaber', 'Rebellion', 'Star', 'Stormtrooper']
+['Death', 'Force', 'Lightsaber', 'Rebellion', 'Star', 'Stormtrooper']
+['Death', 'Force', 'Lightsaber', 'Rebellion', 'Star', 'Stormtrooper']
+
+#
+
+CGEB.txt:
+
+Dan 094230 091787
+John 085000 084293
+Patrick 092777 092000
+Ben 094823 074120
+Oliver 095120 094330
+_______________________________________________
+
+bill.py:
+
+--------------------------------------------------------------------------
+Consumer's name  Current_Reading  Prev_reading  Consumed_unit  Bill amount
+--------------------------------------------------------------------------
+Dan              094230           091787        2443           5496.75
+John             085000           084293        707            1590.75
+Patrick          092777           092000        777            1748.25
+Ben              094823           074120        20703          46581.75
+Oliver           095120           094330        790            1777.5
+--------------------------------------------------------------------------
+
+#
+
+Enter number 1: 10
+Enter number 2: 24
+Enter number 3: 33
+Enter number 4: 48
+Enter number 5: 1
+Enter number 6: 93
+Enter number 7: 55
+Enter number 8: 28
+Enter number 9: 85
+Enter number 10: 66
+1. Add   2. Delete    3. View    4.   Quit
+input: 3
+Viewing the queue
+[10, 24, 33, 48, 1, 93, 55, 28, 85, 66]
+1. Add   2. Delete    3. View    4.   Quit
+input: 1
+You chose to add.
+Enter number: 0
+1. Add   2. Delete    3. View    4.   Quit
+input: 3
+Viewing the queue
+[0, 10, 24, 33, 48, 1, 93, 55, 28, 85, 66]
+1. Add   2. Delete    3. View    4.   Quit
+input: 2
+Dequeuing
+1. Add   2. Delete    3. View    4.   Quit
+input: 3
+Viewing the queue
+[0, 10, 24, 33, 48, 1, 93, 55, 28, 85]
+1. Add   2. Delete    3. View    4.   Quit
+input: 4
+Quitting
+
+#
+
+dd mm yyyy: 01 05 2000
+1st May 2000
+
+#
+
+Name:  Jeff
+Income:  200000
+Tax:  80000.0
+
+#
+
+Max 10 terms!
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+
+#
+
+Name <space> R.No: Jeff 1
+Percentage: 88
+Name <space> R.No: Mike 2
+Percentage: 87
+Name <space> R.No: Irwin 3
+Percentage: 97
+Name <space> R.No: Walter 4
+Percentage: 92
+Name <space> R.No: William 5
+Percentage: 93
+Name <space> R.No: James 6
+Percentage: 89
+Name <space> R.No: Kenny 7
+Percentage: 99
+Name <space> R.No: John 8
+Percentage: 99
+Name <space> R.No: Patrick 9
+Percentage: 90
+Name <space> R.No: Carl 10
+Percentage: 100
+Rank R.No. Name      Percentage
+1    10    Carl      100
+2    8     John      99
+2    7     Kenny     99
+3    3     Irwin     97
+4    5     William   93
+5    4     Walter    92
+6    9     Patrick   90
+7    6     James     89
+8    1     Jeff      88
+9    2     Mike      87
+
+#
+
+Name: Jeff
+Percentage: 95
+Name: Ezekiel
+Percentage: 97
+Name: Arthur
+Percentage: 99
+Name: William
+Percentage: 99
+Name: Sam
+Percentage: 90
+1. Arthur 99
+1. William 99
+2. Ezekiel 97
+3. Jeff 95
+4. Sam 90
+
+#
+
+--------------------------------------------------------------------------------
+Name                class  Cat(BSP/NBSP)  Sex
+--------------------------------------------------------------------------------
+Jeff                12     BSP            M
+Jennifer            11     NBSP           F
+Elliot              10     NBSP           M
+Rachel              12     BSP            F
+William             11     BSP            M
+--------------------------------------------------------------------------------
+Total BSP: 3
+Total NBSP: 2
+Total Boys: 3
+Total Girls: 2
+--------------------------------------------------------------------------------
+
+#
+
+Enter number 1: 3
+Enter number 2: 55
+Enter number 3: 9
+Enter number 4: 35
+Enter number 5: 84
+Enter number 6: 69
+Enter number 7: 45
+Enter number 8: 66
+Enter number 9: 84
+Enter number 10: 81
+>>> Bsearch(45)
+3
+
+#
+
+1. Push   2. Pop    3. View    4.   Quit
+input: 1
+You chose to push.
+Enter number: 22
+1. Push   2. Pop    3. View    4.   Quit
+input: 1
+You chose to push.
+Enter number: 43
+1. Push   2. Pop    3. View    4.   Quit
+input: 3
+Viewing the stack
+[22, 43]
+1. Push   2. Pop    3. View    4.   Quit
+input: 2
+Popping
+1. Push   2. Pop    3. View    4.   Quit
+input: 3
+Viewing the stack
+[22]
+1. Push   2. Pop    3. View    4.   Quit
+input: 4
+Quitting
+
+#
+
+True
+False
+
+#
+
+Enter first row: [4,9,2]
+Enter second row: [3,5,7]
+Enter third row: [8,1,6]
+It's a Magic Square.
+
+#
+
+Name: Jeff
+Phone Number: 8132925325
+Name: Marvin
+Phone Number: 5223123213
+Name: Steven
+Phone Number: 3393299324
+Name: Joe
+Phone Number: 2389932423
+Name: Hugh
+Phone Number: 1293009123
+Search Name: Steven
+Steven 3393299324
+
+#
+
+1. Add   2. Delete    3. View    4.   Exit
+input: 1
+You chose to add.
+Enter city: Raipur
+1. Add   2. Delete    3. View    4.   Exit
+input: 1
+You chose to add.
+Enter city: Bhilai
+1. Add   2. Delete    3. View    4.   Exit
+input: 1
+You chose to add.
+Enter city: New Delhi
+1. Add   2. Delete    3. View    4.   Exit
+input: 3
+Viewing the queue
+['New Delhi', 'Bhilai', 'Raipur']
+1. Add   2. Delete    3. View    4.   Exit
+input: 2
+Dequeuing
+1. Add   2. Delete    3. View    4.   Exit
+input: 3
+Viewing the queue
+['New Delhi', 'Bhilai']
+1. Add   2. Delete    3. View    4.   Exit
+input: 4
+Exiting
+
+#
+
+Country input: India
+Capital input: New Delhi
+Country input: Australia
+Capital input: Canberra
+Country input: Belgium
+Capital input: Brussels
+Country input: Brazil
+Capital input: Brasilia
+Country input: China
+Capital input: Beijing
+Country: China
+Captial:  Beijing
+
+#
+
+dd mm yyyy22 05 2010
+1 6 2010
+
+#
+
+How many words to input? 3
+Word 1: apple
+Word 2: civic
+Word 3: radar
+civic
+radar
+
+#
+
+Icode: 12
+Item: Stick
+Price: 3
+Qty: 3
+Icode:  12
+Item:  Stick
+Price:  3
+Qty:  3
+Discount:  0.0
+Net Price:  9.0
